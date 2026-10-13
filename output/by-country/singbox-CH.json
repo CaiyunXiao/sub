@@ -11,7 +11,7 @@
       "password": "84a506ca5aca505696a454d828420b3f",
       "tls": {
         "enabled": true,
-        "server_name": "140.238.213.114",
+        "server_name": "off",
         "insecure": true
       }
     },
@@ -42,6 +42,27 @@
     {
       "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 03 - xiaohe",
+      "server": "188.225.37.224",
+      "server_port": 443,
+      "uuid": "2db2d74d-f653-459c-818e-22a294e24175",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "max.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "lWZR5WmRc_qa11MTPhUzHF3ijTDdz7rDaTuzj9sglSs",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 04 - xiaohe",
       "server": "138.124.96.88",
       "server_port": 41826,
       "uuid": "2eb3f6a0-df6e-49b6-994c-177acdd50a97",
@@ -66,7 +87,8 @@
         "auto",
         "🇨🇭 瑞士 (Switzerland) 01 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 02 - xiaohe",
-        "🇨🇭 瑞士 (Switzerland) 03 - xiaohe"
+        "🇨🇭 瑞士 (Switzerland) 03 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 04 - xiaohe"
       ]
     },
     {
@@ -75,7 +97,8 @@
       "outbounds": [
         "🇨🇭 瑞士 (Switzerland) 01 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 02 - xiaohe",
-        "🇨🇭 瑞士 (Switzerland) 03 - xiaohe"
+        "🇨🇭 瑞士 (Switzerland) 03 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
