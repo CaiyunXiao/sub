@@ -5,22 +5,24 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇹🇭 泰国 (Thailand) 01 - xiaohe",
-      "server": "45.154.26.63",
+      "tag": "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
+      "server": "104.18.0.1",
       "server_port": 443,
-      "uuid": "ff85e702-b605-4109-884d-2c1f065d0954",
-      "flow": "xtls-rprx-vision",
+      "uuid": "3ccba794-1c6d-48a8-acf2-f5caf0e69d86",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "all.speedtest03.ccwu.cc",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "MiQ5B4j6In71lWvCi0vO_DkVSDb7sii34bh5efBMswk",
-          "short_id": "3c032a7e"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "all.speedtest03.ccwu.cc"
         }
       }
     },
@@ -29,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇭 泰国 (Thailand) 01 - xiaohe"
+        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇭 泰国 (Thailand) 01 - xiaohe"
+        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
