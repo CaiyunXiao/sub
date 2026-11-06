@@ -5,22 +5,28 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇵🇪 秘鲁 (Peru) 01 - xiaohe",
-      "server": "134.185.81.5",
-      "server_port": 47881,
-      "uuid": "59b203b2-b1bc-4e9c-a9e5-ccb8f691bf72",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇮🇶 IQ 01 - xiaohe",
+      "server": "172.66.47.56",
+      "server_port": 443,
+      "uuid": "3dc83518-4002-485e-a066-d3bbcaaa2b2e",
       "tls": {
         "enabled": true,
-        "server_name": "www.tesla.com",
+        "server_name": "K9-85J.paGEs.Dev",
+        "insecure": false,
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "6XmXX1QXGodmtqU37Zx9CDHnCnPtonRdq8ieLmt__g4",
-          "short_id": "38d72071"
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/1WWzkWgNslKTcceU?ed=2560",
+        "headers": {
+          "Host": "k9-85j.pages.dev"
         }
       }
     },
@@ -29,14 +35,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇪 秘鲁 (Peru) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇪 秘鲁 (Peru) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
