@@ -67,6 +67,14 @@
     {
       "type": "shadowsocks",
       "tag": "🇬🇧 英国 (United Kingdom) 07 - xiaohe",
+      "server": "98.98.142.161",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 英国 (United Kingdom) 08 - xiaohe",
       "server": "98.98.207.163",
       "server_port": 8080,
       "method": "rc4-md5",
@@ -74,35 +82,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 英国 (United Kingdom) 08 - xiaohe",
-      "server": "34.39.80.57",
-      "server_port": 50818,
-      "uuid": "408c814e-f70a-4d16-b3b3-8182bb70211d",
-      "tls": {
-        "enabled": true,
-        "server_name": "yingguo.rymaker.cn",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/GunService"
-      }
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🇬🇧 英国 (United Kingdom) 09 - xiaohe",
-      "server": "98.98.142.161",
-      "server_port": 8080,
-      "method": "rc4-md5",
-      "password": "14fFPrbezE3HDZzsMOr6"
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 英国 (United Kingdom) 10 - xiaohe",
       "server": "107.181.151.128",
       "server_port": 443,
       "uuid": "88742d38-3f5c-4b9c-b256-7df5db8257ec",
@@ -134,8 +114,7 @@
         "🇬🇧 英国 (United Kingdom) 06 - xiaohe",
         "🇬🇧 英国 (United Kingdom) 07 - xiaohe",
         "🇬🇧 英国 (United Kingdom) 08 - xiaohe",
-        "🇬🇧 英国 (United Kingdom) 09 - xiaohe",
-        "🇬🇧 英国 (United Kingdom) 10 - xiaohe"
+        "🇬🇧 英国 (United Kingdom) 09 - xiaohe"
       ]
     },
     {
@@ -150,8 +129,7 @@
         "🇬🇧 英国 (United Kingdom) 06 - xiaohe",
         "🇬🇧 英国 (United Kingdom) 07 - xiaohe",
         "🇬🇧 英国 (United Kingdom) 08 - xiaohe",
-        "🇬🇧 英国 (United Kingdom) 09 - xiaohe",
-        "🇬🇧 英国 (United Kingdom) 10 - xiaohe"
+        "🇬🇧 英国 (United Kingdom) 09 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

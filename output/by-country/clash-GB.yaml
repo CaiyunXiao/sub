@@ -53,33 +53,20 @@ proxies:
   servername: ads.x5.ru
   client-fingerprint: random
 - name: 🇬🇧 英国 (United Kingdom) 07 - xiaohe
-  server: 98.98.207.163
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇬🇧 英国 (United Kingdom) 08 - xiaohe
-  server: 34.39.80.57
-  port: 50818
-  udp: true
-  type: vless
-  uuid: 408c814e-f70a-4d16-b3b3-8182bb70211d
-  tls: true
-  servername: yingguo.rymaker.cn
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /GunService
-- name: 🇬🇧 英国 (United Kingdom) 09 - xiaohe
   server: 98.98.142.161
   port: 8080
   udp: true
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
-- name: 🇬🇧 英国 (United Kingdom) 10 - xiaohe
+- name: 🇬🇧 英国 (United Kingdom) 08 - xiaohe
+  server: 98.98.207.163
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇬🇧 英国 (United Kingdom) 09 - xiaohe
   server: 107.181.151.128
   port: 443
   udp: true
@@ -106,7 +93,6 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 07 - xiaohe
   - 🇬🇧 英国 (United Kingdom) 08 - xiaohe
   - 🇬🇧 英国 (United Kingdom) 09 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -121,6 +107,5 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 07 - xiaohe
   - 🇬🇧 英国 (United Kingdom) 08 - xiaohe
   - 🇬🇧 英国 (United Kingdom) 09 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 10 - xiaohe
 rules:
 - MATCH,PROXIES
