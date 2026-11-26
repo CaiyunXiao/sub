@@ -5,17 +5,14 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 01 - xiaohe",
-      "server": "devcdn.icu",
+      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
+      "server": "172.67.139.189",
       "server_port": 443,
-      "uuid": "b432a23a-acff-425c-bf69-70480cd6ed09",
+      "uuid": "364D2D52-E61E-4E52-80EC-2BC6BDF15349",
       "tls": {
         "enabled": true,
-        "server_name": "devcdn.icu",
+        "server_name": "fr-free.fastestrelay.com",
         "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -23,9 +20,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/edge/chunk/b2265efffa29/",
+        "path": "/700gvl",
         "headers": {
-          "Host": "devcdn.icu"
+          "Host": "fr-free.fastestrelay.com"
         }
       }
     },
@@ -34,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇱 波兰 (Poland) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇱 波兰 (Poland) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
